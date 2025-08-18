@@ -1,0 +1,26 @@
+
+import java.util.Scanner;
+
+public class les {
+        public static void main(String[] args) {
+
+        Scanner ga = new Scanner(System.in);
+
+        System.out.println("enter the first value=");
+        int n1 = ga.nextInt();
+
+        System.out.println("enter the scend value=");
+        int n2 = ga.nextInt();
+
+        if(n1==n2){
+            System.out.println("the value is equal ");
+        }
+        else{
+            System.out.println("the value is not equal");
+        }
+
+        ga.close();
+
+    }
+
+}
