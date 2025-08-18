@@ -1,0 +1,30 @@
+//eat fun
+import java.util.*;
+
+public class b {
+    public static void main(String[] args) {
+        
+        Scanner k =new Scanner(System.in);
+
+        System.out.println("enter if u want ice cream yeea or no ");
+
+        String ice = k.nextLine();
+
+        System.out.println("enter if u r hngry or no ");
+        
+        String hu = k.nextLine();
+
+        if (ice.equals("yes") && hu.equals("yes"))
+        {
+
+            System.out.println("you ete");
+        }
+
+        else{
+
+            System.out.println("not ete");
+        }
+
+        k.close();
+    }
+}
