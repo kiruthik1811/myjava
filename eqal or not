@@ -1,0 +1,14 @@
+public class ga {
+    public static void main(String[] args) {
+        int n1 = 22 ;
+        int n2 = 20;
+        
+        if(n1!=n2){
+            System.out.println("not eqal");
+        }
+        else{
+            System.out.println("eqql");
+        }
+
+    }
+}
