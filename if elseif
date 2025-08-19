@@ -1,0 +1,26 @@
+
+import java.util.Scanner;
+
+public class ifandifelsl {
+    public static void main(String[] args) {
+        Scanner e = new Scanner(System.in);
+
+        System.out.println("enter u  get mark=");
+
+        float m =e.nextFloat();
+
+        if(m <= 35.0){
+            System.out.println("u get the video game next time u must get the iphone");
+        }
+        else if(m <= 60.0){
+            System.out.println("u get the iphone  but next time u get the more mark ok");
+        }
+        else if(m >= 90.0){
+            System.out.println("OMG U get the Macbook pro");
+        }
+        else{
+            System.out.println("asdfhjk;''poiuytreweryuip';lkjhgfdxcvbn,.");
+        }
+
+    }
+}
