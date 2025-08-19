@@ -1,0 +1,26 @@
+
+import java.util.Scanner;
+
+
+
+public class op {
+    public static void main(String[] args) {
+
+        Scanner o = new Scanner(System.in);
+        
+        System.out.println("enter the value:");
+
+        int n=o.nextInt();
+
+        if( n%3 == 0 || n%5 == 0 ){
+
+            System.out.println("(the given is dived in to 5 and 3)");
+        }
+        else
+        {
+            System.out.println("(the given is not  dived in to 5 and 3)");
+        }
+
+    }
+}
+
